@@ -1,0 +1,6 @@
+C:\Projects\mono\CoffeePiFiller\CoffeePiFiller\CoffeePiFiller\bin\Debug\CoffeePiFiller.exe
+C:\Projects\mono\CoffeePiFiller\CoffeePiFiller\CoffeePiFiller\bin\Debug\CoffeePiFiller.pdb
+C:\Projects\mono\CoffeePiFiller\CoffeePiFiller\CoffeePiFiller\obj\x86\Debug\CoffeePiFiller.csprojResolveAssemblyReference.cache
+C:\Projects\mono\CoffeePiFiller\CoffeePiFiller\CoffeePiFiller\obj\x86\Debug\CoffeePiFiller.exe
+C:\Projects\mono\CoffeePiFiller\CoffeePiFiller\CoffeePiFiller\obj\x86\Debug\CoffeePiFiller.pdb
+C:\Projects\mono\CoffeePiFiller\CoffeePiFiller\CoffeePiFiller\bin\Debug\CoffeePiFiller.exe.config

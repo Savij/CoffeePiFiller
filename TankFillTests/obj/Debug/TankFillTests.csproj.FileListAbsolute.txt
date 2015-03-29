@@ -1,0 +1,17 @@
+C:\Projects\mono\CoffeePiFiller\CoffeePiFiller\TankFillTests\bin\Debug\TankFillTests.dll
+C:\Projects\mono\CoffeePiFiller\CoffeePiFiller\TankFillTests\bin\Debug\TankFillTests.pdb
+C:\Projects\mono\CoffeePiFiller\CoffeePiFiller\TankFillTests\bin\Debug\CoffeePiFiller.exe
+C:\Projects\mono\CoffeePiFiller\CoffeePiFiller\TankFillTests\bin\Debug\Moq.dll
+C:\Projects\mono\CoffeePiFiller\CoffeePiFiller\TankFillTests\bin\Debug\Raspberry.IO.GeneralPurpose.dll
+C:\Projects\mono\CoffeePiFiller\CoffeePiFiller\TankFillTests\bin\Debug\Raspberry.IO.Components.dll
+C:\Projects\mono\CoffeePiFiller\CoffeePiFiller\TankFillTests\bin\Debug\Raspberry.IO.dll
+C:\Projects\mono\CoffeePiFiller\CoffeePiFiller\TankFillTests\bin\Debug\Raspberry.System.dll
+C:\Projects\mono\CoffeePiFiller\CoffeePiFiller\TankFillTests\bin\Debug\Raspberry.IO.Interop.dll
+C:\Projects\mono\CoffeePiFiller\CoffeePiFiller\TankFillTests\bin\Debug\Raspberry.IO.SerialPeripheralInterface.dll
+C:\Projects\mono\CoffeePiFiller\CoffeePiFiller\TankFillTests\bin\Debug\Raspberry.IO.InterIntegratedCircuit.dll
+C:\Projects\mono\CoffeePiFiller\CoffeePiFiller\TankFillTests\bin\Debug\Common.Logging.Core.dll
+C:\Projects\mono\CoffeePiFiller\CoffeePiFiller\TankFillTests\bin\Debug\CoffeePiFiller.pdb
+C:\Projects\mono\CoffeePiFiller\CoffeePiFiller\TankFillTests\bin\Debug\Moq.xml
+C:\Projects\mono\CoffeePiFiller\CoffeePiFiller\TankFillTests\obj\Debug\TankFillTests.csprojResolveAssemblyReference.cache
+C:\Projects\mono\CoffeePiFiller\CoffeePiFiller\TankFillTests\obj\Debug\TankFillTests.dll
+C:\Projects\mono\CoffeePiFiller\CoffeePiFiller\TankFillTests\obj\Debug\TankFillTests.pdb
