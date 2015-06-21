@@ -62,7 +62,7 @@ namespace CoffeePiFiller
                            blinkDetection.AddReading(lux);
                        }
                        
-                       Console.WriteLine("Light = {0,5:0.0} Lux ({1} ohms)", lux, (int)resistor);
+                       LogWrapper.Log("Light = {0,5:0.0} Lux ({1} ohms)", lux, (int)resistor);
 
                        Console.CursorTop--;
 

@@ -57,12 +57,12 @@ namespace CoffeePiFiller
             {
                 if (e.Enabled)
                 {
-                    Console.WriteLine("Pin Enabled...");
+                    LogWrapper.Log("Pin Enabled...");
                     _blinkDetection.AddReading(BlinkDetection.BLINK_STATES.HI);
                 }
                 else
                 {
-                    Console.WriteLine("Pin Disabled...");
+                    LogWrapper.Log("Pin Disabled...");
                     _blinkDetection.AddReading(BlinkDetection.BLINK_STATES.LOW);
                 }
             }
@@ -76,9 +76,9 @@ namespace CoffeePiFiller
         /// <param name="e"></param>
         private async void BlinkDetectionIsBlinking(object sender, EventArgs e)
         {
-            Console.WriteLine("POT IS BLINKING!!!!!");
+            LogWrapper.Log("POT IS BLINKING!!!!!");
             _isFilling = true;
-            Console.WriteLine("ACTIVATING SOLENOID!!!!!");
+            LogWrapper.Log("ACTIVATING SOLENOID!!!!!");
             if (IsDebugMode)
             {
                 Thread.Sleep(6000); // simulate something hapening for debug purposes.
@@ -87,7 +87,7 @@ namespace CoffeePiFiller
             {
                 var task = ActivateSolenoid();
                 var result = await task;
-                Console.WriteLine(result);
+                LogWrapper.Log(result);
             }
             _isFilling = false;
         }
@@ -99,7 +99,7 @@ namespace CoffeePiFiller
         /// <param name="e"></param>
         private void OnReadingFalsePositives(object sender, EventArgs e)
         {
-            Console.WriteLine("READING FALSE POSITIVES, CLEARING READINGS!!!");
+            LogWrapper.Log("READING FALSE POSITIVES, CLEARING READINGS!!!");
         }
 
         /// <summary>
@@ -109,11 +109,11 @@ namespace CoffeePiFiller
         public async Task<string> ActivateSolenoid()
         {
             _solenoidConnection[_solenoid] = true;
-            Console.WriteLine("WAITING FOR {0} MS...", CoffeeConstants.FillTime);
+            LogWrapper.Log("WAITING FOR {0} MS...", CoffeeConstants.FillTime);
             var delayTask = Task.Delay(CoffeeConstants.FillTime);
             await delayTask;
             _solenoidConnection[_solenoid] = false;
-            Console.WriteLine("DEACTIVATING SOLENOID!!!!!");
+            LogWrapper.Log("DEACTIVATING SOLENOID!!!!!");
             return "...Tank Filled...";
         }
     }

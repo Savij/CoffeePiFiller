@@ -23,7 +23,7 @@ namespace CoffeePiFiller
             //piShell = new PiShell(); // This is for an ADC instead of comparator, not tested!!!
             piShell = new LM339Shell {IsDebugMode = isDebugMode};
             piShell.Process();
-            Console.WriteLine("Started Success!");
+            LogWrapper.Log("Started Success!");
             Console.ReadLine();
         }
 
