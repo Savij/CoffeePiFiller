@@ -1,4 +1,6 @@
-﻿namespace CoffeePiFiller
+﻿using System;
+
+namespace CoffeePiFiller
 {
     public class LogWrapper
     {
@@ -6,7 +8,7 @@
         {
             if (CoffeeConstants.DebugOutput)
             {
-                Log(format, args);
+                Console.WriteLine(format, args);
             }
         }
 
@@ -14,7 +16,7 @@
         {
             if (CoffeeConstants.DebugOutput)
             {
-                Log(message);
+                Console.WriteLine(message);
             }
         }
 
@@ -22,7 +24,7 @@
         {
             if (CoffeeConstants.DebugOutput)
             {
-                Log(format, arg0);
+                Console.WriteLine(format, arg0);
             }
         }
     }
