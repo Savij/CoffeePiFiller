@@ -149,5 +149,23 @@ namespace CoffeePiFiller
                 }
             }
         }
+
+        /// <summary>
+        /// Outputs debug messages to console output as simple logging.
+        /// </summary>
+        public static bool DebugOutput
+        {
+            get
+            {
+                try
+                {
+                    return bool.Parse(ConfigurationManager.AppSettings["DebugOutput"]);
+                }
+                catch (Exception)
+                {
+                    return false;
+                }
+            }
+        }
     }
 }
